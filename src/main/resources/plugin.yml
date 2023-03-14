@@ -1,0 +1,7 @@
+name: LimitedLife
+version: '${project.version}'
+main: eu.maxpi.fiverr.limitedlife.LimitedLife
+api-version: 1.18
+authors: [ Macslolz ]
+description: Plugin to manage limited life
+website: fiverr.com/macslolz
