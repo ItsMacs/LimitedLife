@@ -1,0 +1,50 @@
+#Configuration
+
+lang:
+  no-permission: "&cYou don't have permission!"
+  timer-usage: "&6Usage:\n&b/timer start: &eStarts the game\n&b/timer pause: &ePauses the game\n&b/timer stop: &eStops the game and erases progress\n&b/timer resume: &eResumes the game\n&b/timer restart: &eRestarts the game"
+  timer-started: "&aGame has started! You're now on a timer and vulnerable!"
+  timer-stopped: "&aGame has now stopped!"
+  timer-started-title: "&aGame started!"
+  timer-started-subtitle: "&7You now have 24 hours to live!"
+  timer-stopped-title: "&cGame stopped!"
+  timer-stopped-subtitle: "&7Game is now stopped!"
+  killed-title: "&c-1 hour"
+  killed-boogey-title: "&c-2 hours"
+  kiled-boogey-subtitle : "&7You were killed by the Boogeyman and lost A LOT of time!"
+  killed-subtitle: "&7You were killed and lost time!"
+  killer-title: "&a+30 minutes"
+  killer-subtitle: "&7You got bonus time for killing players!"
+  killer-boogey: "&a+1 hour"
+  actionbar-msg: "&a%time%"
+  ranout-title: "&cYou have run out of time!"
+  ranout-subtitle: "&7You're eliminated from the game!"
+  player-eliminated: "&4%player% &chas run out of time!"
+  boogeyman-taunt-timer: "&cThe Boogeyman is being chosen in &4%time% minutes&c!"
+  boogeyman-last-minute-timer: "&cThe Boogeyman is about to be chosen!"
+  boogeyman-taunt-timer-subtitle: "&7Brace yourself!"
+  boogeyman-taunt-3: "&a3"
+  boogeyman-taunt-2: "&e2"
+  boogeyman-taunt-1: "&c1"
+  boogeyman-taunt-youare: "&eYou are..."
+  not-boogeyman: "&aNOT the Boogeyman."
+  boogeyman: "&cThe Boogeyman" #very scary im frightened aa
+  boogeyman-tutorial: "&4You are the Boogeyman! You have 30 minutes to kill a &agreen&4, &eyellow &4or &cred &4name.\n&4You gain &c&l1 hour &4by killing and your victim loses &c&l2 hours&4.\n&4If you fail to kill anyone, your lives will be set a level downwards."
+  boogeyman-lost: "&cYou didn't kill anyone and lost a lot of your time!"
+  boogeyman-lost-title: "&cFailure"
+  boogeyman-lost-subtitle: "&7You didn't manage to kill anyone!"
+  boogeyman-cure-usage: "&6Usage: &b/boogeyman cure <player>"
+  boogeyman-cured: "&aBoogeyman cured!"
+  boogeyman-chosen: "&aBoogeymen chosen manually!"
+
+#Should players that join after the start be included in the game? (True = include them, false = spawn them in Spectator Mode)
+include-players: true
+
+#1h in seconds
+death-penalty: 3600
+
+#30m in seconds
+kill-buff: 1800
+
+#Start time in seconds
+start-time: 86400

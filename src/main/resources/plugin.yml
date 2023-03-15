@@ -5,3 +5,9 @@ api-version: 1.18
 authors: [ Macslolz ]
 description: Plugin to manage limited life
 website: fiverr.com/macslolz
+
+commands:
+  timer:
+    description: Timer
+  boogeyman:
+    description: Boogeyman
